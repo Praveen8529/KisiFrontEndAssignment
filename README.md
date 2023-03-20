@@ -1,2 +1,2 @@
-# KisiFrontEndAssignment
+# Kisi-frontend-assignment
 Created with CodeSandbox
