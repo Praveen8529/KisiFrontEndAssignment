@@ -1,0 +1,43 @@
+.background {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  position: fixed;
+}
+
+.click-capturer {
+  display: inline-block;
+  position: relative;
+  height: fit-content;
+  margin: 15px;
+}
+
+.close {
+  position: absolute;
+  top: -82px;
+  right: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+  z-index: 2;
+}
+
+.close:focus {
+  outline: none;
+  color: blue;
+  text-shadow: 0 1px 0 blue;
+}
+
+.close:after {
+  content: "×";
+}
